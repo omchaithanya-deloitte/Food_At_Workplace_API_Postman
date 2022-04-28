@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Food_AT_WorkPlace_Collections" tests="21" time="9.906">
+  <testsuite name="Admin_Collection / Create Admin" id="6f6f0ade-d6ab-4d34-8186-3cf21ac9ba92" timestamp="2022-04-28T07:04:54.600Z" tests="3" failures="0" errors="0" time="0.497">
+    <testcase name="Response time is less than 2000ms" time="0.497" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.497" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.497" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Admin_Collection / Admin Login" id="2ac960d5-9923-46ee-93c6-7ba7d67975b0" timestamp="2022-04-28T07:04:54.600Z" tests="3" failures="0" errors="0" time="0.960">
+    <testcase name="Response time is less than 2000ms" time="0.960" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.960" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.960" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Employee_Controller / Get Employee Orders" id="795c4d2f-cd97-46ff-b056-def32cb9dabf" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="1.005">
+    <testcase name="Response time is less than 2000ms" time="1.005" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="1.005" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="1.005" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="1.005" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Item_Controller / get items" id="229918bd-6855-4ebd-b4d9-c4463ee461a7" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.479">
+    <testcase name="Response time is less than 2000ms" time="0.479" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.479" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.479" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.479" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Item_Controller / get free items" id="d24eb366-8338-4f3e-ab9d-aaff90f48059" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.265">
+    <testcase name="Response time is less than 2000ms" time="0.265" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.265" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.265" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.265" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Item_Controller / get paid items" id="e9bec01c-a67b-44a3-8b6d-d26ded967b4b" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.314">
+    <testcase name="Response time is less than 2000ms" time="0.314" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.314" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.314" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.314" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Item_Controller / Put Item Available status" id="712f17e4-3d0f-4408-bc81-4635269be181" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.268">
+    <testcase name="Response time is less than 2000ms" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Item_Controller / put item" id="be750431-7486-4cdf-80c3-3bb9ecbfde2a" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.301">
+    <testcase name="Response time is less than 2000ms" time="0.301" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.301" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.301" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.301" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Item_Controller / Post Item" id="2d1f8865-1980-4dde-bf4b-d9841a386002" timestamp="2022-04-28T07:04:54.600Z" tests="3" failures="0" errors="0" time="0.283">
+    <testcase name="Response time is less than 2000ms" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 201" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="JWT_Controller / JWT Token" id="ef53d7c4-7100-4dff-808d-67f9f56f47a9" timestamp="2022-04-28T07:04:54.600Z" tests="3" failures="0" errors="0" time="0.343">
+    <testcase name="Response time is less than 400ms" time="0.343" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.343" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.343" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Order_Controller / Update order status" id="217fd687-c236-4c93-83e1-17949702fc0a" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.284">
+    <testcase name="Status code is 200" time="0.284" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.284" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.284" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response time is less than 2000ms" time="0.284" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Order_Controller / get order status" id="cb41fbd1-300f-43e0-8c85-670464a434c4" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.268">
+    <testcase name="Status code is 200" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response time is less than 2000ms" time="0.268" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Order_Controller / Get posted orders" id="5fdcfacd-5bc2-45d8-a1fb-ad4cb9fc6beb" timestamp="2022-04-28T07:04:54.600Z" tests="0" failures="0" errors="0" time="1.313"/>
+  <testsuite name="Order_Controller / Place order" id="be674a7f-127c-45e3-8758-536ed9b94b36" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.308">
+    <testcase name="Status code is 201" time="0.308" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.308" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.308" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response time is less than 2000ms" time="0.308" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Order_Controller / get orders by order id" id="8cae012a-303a-4033-bace-684c9e3aeb93" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.276">
+    <testcase name="Status code is 200" time="0.276" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.276" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.276" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response time is less than 2000ms" time="0.276" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Order_Controller / delete orders by orderid" id="cdf9190a-2460-4997-9ce0-02ac29bd0f5b" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.277">
+    <testcase name="Status code is 406" time="0.277" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.277" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.277" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response time is less than 2000ms" time="0.277" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="Order_Controller / Get order details using status id" id="871b40b1-c3df-4f43-a094-1465b34d42b8" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.351">
+    <testcase name="Status code is 200" time="0.351" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.351" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.351" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response time is less than 2000ms" time="0.351" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="User_Validation / Verify Password" id="99d29e47-72c1-43bc-877b-c81490bdb93c" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.283">
+    <testcase name="Response time is less than 1000ms" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.283" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="User_Validation / Send OTP" id="6b698bb7-476c-4952-b4c9-ebb771befa4b" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="1.221">
+    <testcase name="Response time is less than 2000ms" time="1.221" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="1.221" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="1.221" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="1.221" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="User_Validation / Create User" id="0bf7cacc-db55-40b4-ba33-c9e78a796554" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.297">
+    <testcase name="Response time is less than 1000ms" time="0.297" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.297" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.297" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.297" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+  <testsuite name="User_Validation / Verify Email" id="c330f2ed-03e2-411d-8ef0-8cee77e698ef" timestamp="2022-04-28T07:04:54.600Z" tests="4" failures="0" errors="0" time="0.313">
+    <testcase name="Response time is less than 1000ms" time="0.313" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Status code is 200" time="0.313" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Response has a valid Content-Type header" time="0.313" classname="FoodAtWorkPlaceCollections"/>
+    <testcase name="Body matches string" time="0.313" classname="FoodAtWorkPlaceCollections"/>
+  </testsuite>
+</testsuites>
